@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bch"
+    tools:context="com.example.war.my_doc.Headache">
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="18dp"
+        android:onClick="headache"
+        android:text="Pain above eyes"
+        android:textColor="#00000f"
+        android:textSize="25sp" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/checkBox"
+        android:layout_marginTop="15dp"
+        android:onClick="headache"
+        android:text="Pain beneath eyes/nose"
+        android:textColor="#00000f"
+        android:textSize="25sp" />
+
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/checkBox2"
+        android:layout_marginTop="12dp"
+        android:onClick="headache"
+        android:text="Pain in nose"
+        android:textColor="#00000f"
+        android:textSize="25sp" />
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/checkBox3"
+        android:layout_marginTop="16dp"
+        android:onClick="headache"
+        android:text="Nose elergy"
+        android:textColor="#00000f"
+        android:textSize="25sp" />
+
+
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/checkBox4"
+        android:layout_marginTop="11dp"
+        android:onClick="headache"
+        android:text="Pain in for head"
+        android:textColor="#00000f"
+        android:textSize="25sp" />
+
+    <CheckBox
+        android:id="@+id/checkBox6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/checkBox5"
+        android:layout_marginTop="13dp"
+        android:onClick="headache"
+        android:text="Pain on side of eye"
+        android:textColor="#00000f"
+        android:textSize="25sp" />
+
+    <CheckBox
+        android:id="@+id/checkBox7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/checkBox6"
+        android:layout_marginTop="14dp"
+        android:onClick="headache"
+        android:text="Pain at Both side of neck"
+        android:textColor="#00000f"
+        android:textSize="25sp" />
+
+    <CheckBox
+        android:id="@+id/checkBox8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/checkBox7"
+        android:layout_marginTop="13dp"
+        android:onClick="headache"
+        android:text="Pain at one side of head / sometimes both"
+        android:textColor="#00000f"
+        android:textSize="25sp" />
+
+    <CheckBox
+        android:id="@+id/checkBox9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/checkBox8"
+        android:layout_marginTop="11dp"
+        android:onClick="headache"
+        android:text="Light and sound sensivity"
+        android:textColor="#00000f"
+        android:textSize="25sp" />
+
+    <CheckBox
+        android:id="@+id/checkBox10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/checkBox9"
+        android:layout_marginTop="11dp"
+        android:onClick="headache"
+        android:text="Vomiting with pain"
+        android:textColor="#00000f"
+        android:textSize="25sp" />
+
+    <CheckBox
+        android:id="@+id/checkBox11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/checkBox10"
+        android:layout_marginTop="14dp"
+        android:onClick="headache"
+        android:text="Pain behind one eye"
+        android:textColor="#00000f"
+        android:textSize="25sp" />
+
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/button2"
+        android:layout_width="100sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:background="@color/overlayBackground"
+        android:onClick="sol"
+        android:text="proceed"
+        android:textColor="@android:color/white"
+        app:buttonColor="@drawable/signin" />
+
+
+</RelativeLayout>
